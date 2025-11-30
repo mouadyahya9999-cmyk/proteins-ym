@@ -357,11 +357,11 @@ header {
 }
 
 
-/* WhatsApp Floating Button */
+
 .whatsapp-float {
     position: fixed;
-    right: 20px;         /* المسافة من اليمين */
-    bottom: 20px;        /* المسافة من الأسفل */
+    right: 20px;
+    bottom: 20px;
     width: 60px;
     height: 60px;
     background-color: #25D366;
@@ -369,32 +369,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     z-index: 9999;
     transition: 0.2s;
 }
 
 .whatsapp-float:hover {
     transform: scale(1.08);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 .whatsapp-icon {
-    width: 35px;
-    height: 35px;
-}
-
-/* Responsive for mobile */
-@media (max-width: 480px) {
-    .whatsapp-float {
-        width: 52px;
-        height: 52px;
-        right: 15px;
-        bottom: 15px;
-    }
-
-    .whatsapp-icon {
-        width: 30px;
-        height: 30px;
-    }
+    width: 32px;
+    height: 32px;
 }

@@ -325,13 +325,9 @@ header {
         font-size: 23px;
     }
 }
-.product-card {
-    margin: 0 auto !important;      /* يجعل الكارت في الوسط */
-    display: block !important;      /* يساعد على التوسيط */
-}
-
 .products-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;            /* يوسّط كل العناصر */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center; /* 🔥 هذا أهم سطر — يجعل كل العناصر في وسط العمود */
 }

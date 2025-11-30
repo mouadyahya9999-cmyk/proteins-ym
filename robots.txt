@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mouadyahya9999-cmyk.github.io/proteins-ym/sitemap.xml

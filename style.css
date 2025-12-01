@@ -212,20 +212,25 @@ header {
     box-shadow: 0 6px 16px rgba(0,0,0,0.22);
 }
 .product-price {
-    font-size: 18px;
-    margin: 8px 0;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .product-price .old {
-    text-decoration: line-through;
+    display: block;               /* اجعله في سطر وحده */
     color: #888;
-    margin-right: 6px;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .product-price .new {
-    color: red;
+    display: block;               /* اجعله في سطر وحده */
+    color: #0f8a22;               /* أخضر */
+    font-size: 22px;
     font-weight: bold;
 }
+
 .other-text {
     text-align: center;
     font-size: 16px;
